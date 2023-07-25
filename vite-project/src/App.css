@@ -1,0 +1,27 @@
+body {
+    overflow: none;
+}
+
+.App {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.scroll-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.moving-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    height: 200vh;
+    /* Example height for content */
+}

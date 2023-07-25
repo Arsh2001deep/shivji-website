@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            /* Adjust the height as needed */
+            overflow: hidden;
+        }
+        
+        #moving-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 40vh;
+            width: 40vh;
+            transition: transform 0.1s ease-in-out;
+            z-index: 789;
+            /* Smooth transition for image movement */
+        }
+    </style>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>scroll event</h1>
+    <div class="container">
+        <img id="moving-image" src="/vite-project/src/cloud.png" alt="Moving Image" />
+    </div>
+
+    <script>
+        // window.addEventListener("scroll", () => {
+        //     // console.log("gcfcggu");
+
+        //     const itna = window.scrollY
+        //         // console.log('itna scroll hua');
+
+        //     const scrolled = document.documentElement.scrollHeight - window.innerHeight
+
+        //     console.log(scrolled)
+
+        //     // if (Math.ceil(itna) === scrolled) {
+
+        //     //     alert("reached enfd")
+
+        //     // }
+
+
+
+
+
+
+        // })
+
+
+        // chatgpt
+        window.addEventListener('scroll', function() {
+
+            console.log("object");
+            var image = document.getElementById('moving-image');
+            var scrollY = window.scrollY;
+            image.style.transform = 'translateX(' + scrollY + 'px)';
+            image.style.transform = 'scaleX(' + scrollY + 'px)';
+        });
+    </script>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat quia voluptates quasi facilis dolorum repellat, esse iste soluta harum sint. Consequuntur, nihil cum doloribus voluptate, deleniti ex fugiat eligendi sit reiciendis consectetur
+        vel est quas commodi esse fugit cupiditate nisi voluptatibus ab saepe omnis harum quis odit! Fugit, laboriosam.
+    </p>
+
+</body>
+
+</html>
